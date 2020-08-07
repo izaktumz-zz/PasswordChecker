@@ -8,7 +8,7 @@ Install-Package PasswordChecker -Version 1.0.0
 
 
 # Usage
-The Library contains two methods
+The Library contains three methods
 
 1.CheckPassword
 
