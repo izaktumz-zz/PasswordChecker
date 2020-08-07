@@ -184,13 +184,13 @@
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "restore": {
-      "projectUniqueName": "C:\\NugetPackages\\PasswordChecker\\PasswordChecker\\PasswordChecker.csproj",
+      "projectUniqueName": "C:\\NugetPackages\\GitProjects\\PasswordChecker\\PasswordChecker\\PasswordChecker.csproj",
       "projectName": "PasswordChecker",
-      "projectPath": "C:\\NugetPackages\\PasswordChecker\\PasswordChecker\\PasswordChecker.csproj",
+      "projectPath": "C:\\NugetPackages\\GitProjects\\PasswordChecker\\PasswordChecker\\PasswordChecker.csproj",
       "packagesPath": "C:\\Users\\issac.tumuti\\.nuget\\packages\\",
-      "outputPath": "C:\\NugetPackages\\PasswordChecker\\PasswordChecker\\obj\\",
+      "outputPath": "C:\\NugetPackages\\GitProjects\\PasswordChecker\\PasswordChecker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
