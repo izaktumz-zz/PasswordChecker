@@ -4,7 +4,7 @@ A library that checks if a password is strong by checking if it contains a combi
 
 # Overview
 instructions:
-Install-Package PasswordChecker -Version 1.0.0
+Install-Package PasswordChecker -Version 1.2.0
 
 
 # Usage
