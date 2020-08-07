@@ -166,7 +166,7 @@ namespace PasswordChecker
             }
             return false;
         }
-    
+
 
         /// <summary>
         /// Generates a random password of the required length
@@ -179,26 +179,39 @@ namespace PasswordChecker
             int count = 0;
             StringBuilder sw = new StringBuilder();
 
-            while (count <= passwordLength)
-            {         
+            while (count < passwordLength)
+            {
                 int noPosition = rnd.Next(0, numbers.Length);
-                if (count <= passwordLength)
-                   sw.Append(numbers[noPosition]);
-                       
-                int lowerCasePosition = rnd.Next(0,lower_case.Length);
-                if(count <= passwordLength)
-                   sw.Append(lower_case[lowerCasePosition]);
+                if (count < passwordLength)
+                {
+                    count++;
+                    sw.Append(numbers[noPosition]);
+                }
+
+
+                int lowerCasePosition = rnd.Next(0, lower_case.Length);
+                if (count < passwordLength)
+                {
+                    count++;
+                    sw.Append(lower_case[lowerCasePosition]);
+                }
+
 
                 int upperCasePosition = rnd.Next(0, upper_case.Length);
-                if (count <= passwordLength)
+                if (count < passwordLength)
+                {
+                    count++;
                     sw.Append(upper_case[upperCasePosition]);
+                }
+
 
 
                 int specialCasePosition = rnd.Next(0, special_characters.Length);
-                if (count <= passwordLength)
+                if (count < passwordLength)
+                {
+                    count++;
                     sw.Append(special_characters[specialCasePosition]);
-
-                count += 4;
+                }
             }
 
             return sw.ToString();
