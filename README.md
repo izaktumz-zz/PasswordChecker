@@ -1,5 +1,5 @@
 # PasswordChecker
-A library that checks if a password is strong by checking if it contains a combination of lowercase,uppercase,special characters and numbers. In Addition,it also generates a random password of the desired length
+A library that verifies if a password is strong by checking if it contains a combination of lowercase,uppercase,special characters and numbers. In Addition,it also generates a random password of the desired length
 
 
 # Overview
